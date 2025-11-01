@@ -2,11 +2,6 @@
 
 A lightweight JavaScript SDK to interact with the Mega‑Tera browser APIs from the browser or Node.js environments.
 
-- Default API base URL: `https://lisa-taurine.tera.space`
-- Default Milan (CDP relay) host: `gcp-usc1-1.milan-taurine.tera.space`
-
-> Source file: `sdk.js`
-
 ## Requirements
 
 - Modern browser or Node.js 18+ (for built‑in `fetch`).
@@ -180,10 +175,3 @@ try {
   try { await sdk.endSession(); } catch {}
 }
 ```
-
-## File Locations
-
-- SDK source: `sdk.js`
-- This document: `docs/Readme.md`
-
-If you need more examples or typed interfaces, let us know and we can extend the SDK with TypeScript definitions and additional helpers.
